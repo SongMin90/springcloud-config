@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev   #开发环境
+    application:
+        name: springcloud-config-songm-dev
+---
+spring:
+    profiles: test
+    application:
+        name: springcloud-config-songm-test
+        
